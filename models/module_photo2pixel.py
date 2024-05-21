@@ -3,8 +3,8 @@ import torch.nn as nn
 import numpy as np
 from PIL import Image
 
-from models.module_edge_detector import EdgeDetectorModule
-from models.module_pixel_effect import PixelEffectModule
+from .module_edge_detector import EdgeDetectorModule
+from .module_pixel_effect import PixelEffectModule
 
 
 class Photo2PixelModel(nn.Module):
